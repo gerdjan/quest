@@ -1,0 +1,41 @@
+body{
+	background-image:url("crumpled-paper.jpg");
+	/*background-repeat:no-repeat;*/
+}
+header{
+	text-align: center;
+	color: darkgreen;
+	font-size: 40px;
+	text-shadow: 2px 2px black;
+}
+h2{
+	text-align: center;
+	color: darkgreen;
+	font-size: 30px;
+	
+}
+nav{
+	margin-top: 145px;
+}
+footer{
+	text-align: center;
+	margin-top: 600px;
+}
+
+button{
+	float:left;
+	position: relative;
+	margin-left: 46%;
+	height: 50px;
+	width: 125px;
+}
+
+a:link 			{color:black;}      
+a:visited 		{color:black;}  
+a:hover 			{color:orange;}  
+a:active 		{color:green;}
+
+a:link 			{text-decoration:none;}
+a:visited 		{text-decoration:none;}
+a:hover 			{text-decoration:none;}
+a:active 		{text-decoration:none;}

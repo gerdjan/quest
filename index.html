@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link type="text/css" href="styles/my_style.css" rel="stylesheet">
+		<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="scripts/my_scripts.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1> Your adventure </h1>
+		</header>
+		<nav>
+			<h2> Welcome 
+				<script onload type="text/javascript">
+					var naam;
+					naam=window.prompt("Tell me your name, great adventurer. ");
+					if (naam=="" || naam=="Vul uw naam in dit veld in")
+					{
+						document.write("player");
+					}
+					else
+					{
+						document.write(naam);
+					}
+				</script>
+				to your own adventure! </h2>
+			 <a href="adventure/111111987.html"> <button type="button">Continue</button> </a> 
+		</nav>
+		<footer>
+			<p>made by the most awesome guy in the world :D<p>
+		</footer>
+	
+	</body>
+</html>
